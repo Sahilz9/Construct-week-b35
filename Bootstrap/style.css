@@ -6,4 +6,88 @@
 
 /* <!-- Services & Solutions carousel Sahil  --> */
 
+.carousel-control-prev {
+  background-color: #141414;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.carousel-control-prev-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.carousel-control-next {
+  background-color: #141414;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin: 10em 5em 0 0;
+}
+
+.carousel-control-next-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.card {
+  height: auto;
+  width: 224px;
+  padding-top: 20px;
+}
+
+.card > img {
+  height: 241px;
+  width: 224px;
+  object-fit: cover;
+}
+
+.card-body > p {
+  text-align: center;
+  font-size: 12.8px;
+  font-weight: 400;
+}
+
+.card-body > :nth-of-type(2) {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(117, 117, 117);
+}
+
+.card-body > :nth-of-type(3) {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card-btn {
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 44px;
+}
+
+.price-tag {
+  display: flex;
+  justify-content: center;
+  margin: -10px 0 20px 0;
+}
+
+.price-tag1 {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.card-group > .card {
+  height: 400px;
+  width: 400px;
+}
+
+.card-group > .card > img {
+  height: 800px;
+  width: 550px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
 /* <!-- Footer Rajat --> */
