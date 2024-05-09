@@ -1,7 +1,7 @@
 # Ganges-Scripting-001 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Smileys/Alien.webp" alt="Alien" width="45" height="45"/>
 
 ## Introduction
-Maven is a manufacturer of personal computers, smartphones, televisions, and wearable devices.
+Maven is a single page static application that manufacturer of personal computers, smartphones, televisions, and wearable devices.
 
 ## Project Type
 Frontend 
