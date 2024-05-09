@@ -11,7 +11,7 @@ Technologies used in the project.
 
 <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg" alt="photoshop" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg" alt="photoshop" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/sass-lang/sass-lang-icon.svg" alt="photoshop" width="40" height="40"/>  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/120px-Bootstrap_logo.svg.png" alt="photoshop" width="40" height="40"/>  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="photoshop" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/github/github-icon.svg" alt="photoshop" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/npmjs/npmjs-ar21.svg" alt="photoshop" width="40" height="40"/> 
 
-## Deplolyed App
+## Deployed App
 Frontend: Pending
 
 ## Directory Structure
