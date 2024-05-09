@@ -51,7 +51,26 @@
 /* <!-- Carousel and Explore Lenovo part Imaran --> */
 
 /* <!-- Explore Our Range, Fulfilling Potential through Technology and Infrastructure Solutions part Pavan  --> */
+.card:hover {
+    transform: scale(1.01);
+}
+@media only screen and (max-width: 992px) {
+    .container {
+        flex-wrap: wrap;
+    }
 
+    .card {
+        flex-basis: calc(50% - 20px);
+        /* Two cards per row with 20px gap */
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .card {
+        flex-basis: calc(100% - 20px);
+        /* One card per row with 20px gap */
+    }
+}
 /* <!-- Services & Solutions carousel Sahil  --> */
 
 /* <!-- Footer Rajat --> */
