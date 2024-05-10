@@ -126,6 +126,59 @@
 
 /* <!-- Carousel and Explore Lenovo part Imaran --> */
 
+
+
+      /* Make the image fully responsive */
+      .carousel-inner img {
+        width: 100%;
+        height: 100%;
+      }
+
+      .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+        background-color: white; /* Non-active color */
+        margin: 0 5px;
+        border-radius: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border: none;
+      }
+
+      .carousel-indicators .active {
+        background-color: white; /* Active color */
+      }
+      .carousel-caption {
+        flex-direction: column;
+        justify-content: flex-start;
+      }
+      .circle {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        /* overflow: hidden; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f4f4f4; /* Gray background color */
+        margin: 20px auto;
+      }
+
+      /* .carousel-control-prev-icon,
+      .carousel-control-next-icon {
+        width: 40px;
+        height: 40px;
+        background-color: black;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      } */
+  
+
+
 /* <!-- Explore Our Range, Fulfilling Potential through Technology and Infrastructure Solutions part Pavan  --> */
 .card:hover {
   transform: scale(1.01);
