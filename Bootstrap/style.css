@@ -270,6 +270,14 @@
   border: 1px solid black;
 }
 
+
+.rks>.inner-box1
+{
+padding: 18px 145px 50px 145px;
+width: 100%;
+height: 100%;
+}
+
 .carousel-control-prev {
   background-color: #141414;
   height: 30px;
@@ -277,6 +285,126 @@
   border-radius: 50%;
 }
 
+
+.rks .d2 img
+{
+    width: 25px;
+}
+.rks .input1
+{
+width: 280px;
+
+}
+.rks .i1
+{
+   
+  
+}
+.rks .u1
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.rks .inner-box1
+{
+   max-width: 1500px;
+   margin: auto;
+   
+}
+.rks .u2
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    
+    padding-top: 60px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+   
+
+}
+.rks .u2>div
+{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+
+    
+    
+}
+.rks .u2 a
+{
+font-size: 12.8px;
+}
+.rks .u3
+{
+text-align: center;
+}
+.rks .u3>p
+{
+margin: 0px;
+}
+.rks>hr
+{
+margin: 0px;
+}
+.rks .inner-box2
+{
+   max-width: 1500px;
+   margin: auto;
+   
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.rks .inner-box2>a
+{
+    display: flex;
+    align-items: center;
+    
+}
+.rks .inner-box2>span
+{
+    font-size: 14px;
+   
+}
+@media(max-width:1250px)
+{
+    .rks .u1
+{
+   flex-direction: column;
+    
+}
+.rks>.inner-box1
+{
+padding: 0px;
+
+
+}
+.rks .d2
+{
+    padding-bottom: 10px;
+}
+
+}
+@media(max-width:324px)
+{
+    .rks .inner-box2
+    {
+        flex-direction: column;
+    }
+    .rks .u2>div
+    {
+        margin: auto;
+       
+        
+    }
+}
+/* rks style end */
+=======
 .carousel-control-prev-icon {
   height: 20px;
   width: 20px;
