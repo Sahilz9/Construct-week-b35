@@ -1,0 +1,12 @@
+{
+  "name": "construct-week-b35",
+  "version": "1.0.0",
+  "description": "Maven is a single page static application that manufacturer of personal computers, smartphones, televisions, and wearable devices.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
