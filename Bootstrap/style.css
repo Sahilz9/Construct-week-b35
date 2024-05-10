@@ -1,5 +1,5 @@
 /* <!-- Navbar Rutvik.--> */
-.main-container{
+/* .main-container{
   /* max-width: 1200px; */
   margin:0 auto;
   /* padding: 0 20px; */
@@ -9,7 +9,7 @@
   /* flex-wrap: wrap; */
   /* text-align: center; */
   
-} 
+}  */
 .container{
   /* max-width: 1200px; */
   margin:0 auto;
@@ -31,7 +31,7 @@
     text-decoration: underline red 3px;
   }
   
-  .d-flex {
+  .add {
     /* padding-right:100px; */
     /* width: 200px;  */
     margin-right: 500px;
