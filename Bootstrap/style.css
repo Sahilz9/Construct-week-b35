@@ -4,6 +4,7 @@
 /* All fonts import here */
 
 /* <!-- Navbar Rutvik.--> */
+/* .main-container{ */
 .main-container {
   /* max-width: 1200px; */
   margin: 0 auto;
@@ -13,7 +14,7 @@
   align-items: center;
   /* flex-wrap: wrap; */
   /* text-align: center; */
-}
+}  
 .container {
   /* max-width: 1200px; */
   margin: 0 auto;
@@ -137,7 +138,6 @@
 .signIn > span:nth-of-type(1) {
   width: 200px;
 }
-
 /* <!-- Carousel and Explore Lenovo part Imaran --> */
 
 /* Make the image fully responsive */
