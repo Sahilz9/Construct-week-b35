@@ -1,11 +1,206 @@
-
-/* <!-- Viatours navbar and search container (Rajat)  --> */
-
-/* <!-- Why choose Tourz, Trending destinations & Find more tours (Imaran ) --> */
-
-/* <!-- Discount & Popular things to do (Pavan ) --> */
-
-/* <!-- Top trending & Customer Reviews (Rutvik ) --> */
-
-/* <!-- Discount section, Travel Article & footer section(Sahil ) --> */
-/*# sourceMappingURL=style.css.map */
+body {
+  margin: 0px;
+  box-sizing: border-box;
+}
+body > header {
+  max-width: 1920px;
+  margin: auto;
+}
+body > header > .rks2 {
+  max-width: 1320px;
+  padding: 22px 15px 22px 15px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body > header > .rks2 > .box1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 547px;
+}
+body > header > .rks2 > .box1 > .search {
+  width: 350px;
+}
+body > header > .rks2 > .box1 > .search > input[type=text] {
+  padding: 0px;
+  margin: 12px 79.8px 12.13px 47px;
+  font-family: Inter;
+  font-size: 14.77px;
+  font-weight: 400;
+  line-height: 17.87px;
+  color: #757575;
+  width: 223.2px;
+  border: none;
+}
+body > header > .rks2 .box2 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  max-width: 593.5px;
+}
+body > header > .rks2 .box2 > span {
+  font-family: Inter;
+  font-size: 14.77px;
+  font-weight: 400;
+  line-height: 28.13px;
+  color: #05073C;
+  transition: color 0.5s linear;
+}
+body > header > .rks2 .box2 > span:hover {
+  color: red;
+  cursor: pointer;
+}
+body > header > .rks2 .box2 > span:nth-of-type(1) {
+  padding-right: 62.8px;
+  padding-left: 20px;
+}
+body > header > .rks2 .box2 > span:nth-of-type(2) {
+  font-family: Inter;
+  font-size: 14.88px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: left;
+  padding-right: 62.8px;
+}
+body > header > .rks2 .box2 > span:nth-of-type(3) {
+  font-family: Inter;
+  font-size: 13.83px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: left;
+  padding-right: 52.8px;
+}
+body > header > .rks2 .box2 > span:nth-of-type(4) {
+  font-family: Inter;
+  font-size: 14.53px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: left;
+  padding-right: 29.8px;
+}
+body > header > .rks2 .box2 > button {
+  border-radius: 200px;
+  background-color: #EB662B;
+  color: #FFFFFF;
+  padding: 12px 20.8px 12px 21px;
+  font-family: Inter;
+  font-size: 14.3px;
+  font-weight: 500;
+  line-height: 28px;
+  transition: background-color 1s linear;
+  cursor: pointer;
+  border: none;
+}
+body > header > .rks2 .box2 > button:hover {
+  background-color: red;
+}
+body > section {
+  max-width: 1920px;
+  margin: auto;
+}
+body > section > .div1 {
+  width: 1800px;
+  position: relative;
+  margin: auto;
+}
+body > section > .div1 > img {
+  width: 100%;
+}
+body > section > .div1 > h1 {
+  font-family: Inter;
+  font-size: 69.73px;
+  font-weight: 600;
+  line-height: 84px;
+  margin: 0px;
+  left: 618.03px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 220px;
+}
+body > section > .div1 > p {
+  font-family: Inter;
+  font-size: 14.65px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: center;
+  color: #FFFFFF;
+  position: absolute;
+  top: 314px;
+  left: 585.2px;
+  margin: 0px;
+}
+body > section > .div1 > .div2 {
+  position: absolute;
+  top: 402.13px;
+  left: 475px;
+  padding: 10px;
+  border-radius: 12px;
+  background-color: #FFFFFF;
+  display: flex;
+}
+body > section > .div1 > .div2 > .w1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px 5px 10px;
+}
+body > section > .div1 > .div2 > .w2 {
+  width: 136.95px;
+}
+body > section > .div1 > .div2 > .w2 > button {
+  font-family: Inter;
+  font-size: 14.65px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #FFFFFF;
+  background-color: #EB662B;
+  padding: 20px 30.8px 20px 31px;
+  border-radius: 12px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 1s linear;
+  border: none;
+}
+body > section > .div1 > .div2 > .w2 > button:hover {
+  background-color: red;
+}
+body > section > .div1 > .div2 .ibox1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  border: 1px;
+  border: 1px solid #E7E6E6;
+}
+body > section > .div1 > .div2 .v1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 224.34px;
+}
+body > section > .div1 > .div2 .v1 p, body > section > .div1 > .div2 .v1 h2 {
+  margin: 0px;
+}
+body > section > .div1 > .div2 .v1 p {
+  font-family: Inter;
+  font-size: 13.67px;
+  font-weight: 400;
+  line-height: 19.6px;
+  color: #717171;
+  transition: color 0.5s linear;
+  cursor: pointer;
+}
+body > section > .div1 > .div2 .r2 p {
+  color: #000000;
+}
+body > section > .div1 > .div2 .v1 p:hover {
+  color: red;
+}
+body > section > .div1 > .div2 .v1 h2 {
+  font-family: Inter;
+  font-size: 14.88px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #05073C;
+}/*# sourceMappingURL=style.css.map */
