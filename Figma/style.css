@@ -1,5 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+.grab-con {
+  display: flex;
+  justify-content: center;
+  max-width: 2000px;
+  margin: auto;
+}
 
+.img-g {
+  position: relative;
+  width: 1530px;
+  height: 606px;
+}
 
+.img-g > img {
+  border-radius: 12px;
+}
+
+#iii {
+  border-radius: 12px;
+}
 /* <!-- Viatours navbar and search container (Rajat)  --> */
 
 /* <!-- Why choose Tourz, Trending destinations & Find more tours (Imaran ) --> */
@@ -223,8 +242,221 @@
     } */
 /* <!-- Discount & Popular things to do (Pavan ) --> */
 
-/* <!-- Top trending & Customer Reviews (Rutvik ) --> */
+.img-g > div:nth-of-type(1) {
+  position: absolute;
+  top: 130px;
+  left: 120px;
+  width: 366px;
+  height: 156px;
+}
+.img-g > div:nth-of-type(1) > p {
+  font-size: 40px;
+  font-family: Inter;
+  font-weight: 700;
+  color: #05073c;
+}
+.img-g > div:nth-of-type(1) > p span {
+  color: #eb662b;
+}
+.img-g > div:nth-of-type(2) {
+  position: absolute;
+  top: 314px;
+  left: 120px;
+}
+.img-g > div:nth-of-type(2) > p {
+  color: #05073c;
+  font-family: Inter;
+  font-size: 14.77px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: left;
+}
+.img-g > div:nth-of-type(3) {
+  position: absolute;
+  top: 388px;
+  left: 120px;
+}
+.img-g > div:nth-of-type(3) > button {
+  width: 167px;
+  height: 62px;
+  border: none;
+  color: white;
+  background-color: #eb662b;
+  border-radius: 12px;
+  font-family: Inter;
+  font-size: 14.41px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+}
+.img-g > div:nth-of-type(4) {
+  position: absolute;
+  top: 0px;
+  left: 780px;
+  width: 750px;
+  height: 606px;
+}
+.img-g > div:nth-of-type(5) {
+  position: absolute;
+  top: 0px;
+  left: 779px;
+  width: 40px;
+  height: 604px;
+}
 
+.popular-con {
+  max-width: 1320px;
+  height: 600px;
+  margin: auto;
+  margin-top: 115px;
+  position: relative;
+}
+
+.ic > div:nth-of-type(1) {
+  display: flex;
+  justify-content: space-between;
+}
+.ic > div:nth-of-type(1) > p:nth-of-type(1) {
+  margin: 0px;
+  padding: 4px 0 0 15px;
+  font-family: Inter;
+  font-size: 29.88px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: left;
+  color: #05073c;
+}
+.ic > div:nth-of-type(1) > p:nth-of-type(2) {
+  padding: 12px 31px 0 0;
+  margin: 0px;
+  font-family: Inter;
+  font-size: 14.3px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: left;
+  color: #05073c;
+}
+
+.img-1 {
+  position: absolute;
+  top: 90px;
+  left: 15px;
+}
+.img-1 > img {
+  border-radius: 12px;
+}
+.img-1 > p {
+  position: absolute;
+  top: 170px;
+  left: 30px;
+  font-family: Inter;
+  font-size: 19.53px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.img-2 {
+  position: absolute;
+  top: 360px;
+  left: 15px;
+}
+.img-2 > img {
+  border-radius: 12px;
+}
+.img-2 > p {
+  position: absolute;
+  top: 170px;
+  left: 30px;
+  font-family: Inter;
+  font-size: 19.53px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.img-3 {
+  position: absolute;
+  top: 90px;
+  left: 345px;
+}
+.img-3 > img {
+  border-radius: 12px;
+}
+.img-3 > p {
+  position: absolute;
+  top: 440px;
+  left: 30px;
+  font-family: Inter;
+  font-size: 19.53px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.img-4 {
+  position: absolute;
+  top: 90px;
+  left: 785px;
+}
+.img-4 > img {
+  border-radius: 12px;
+}
+.img-4 > p {
+  position: absolute;
+  top: 170px;
+  left: 30px;
+  font-family: Inter;
+  font-size: 19.53px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.img-5 {
+  position: absolute;
+  top: 360px;
+  left: 785px;
+}
+.img-5 > img {
+  border-radius: 12px;
+}
+.img-5 > p {
+  position: absolute;
+  top: 170px;
+  left: 30px;
+  font-family: Inter;
+  font-size: 19.53px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.img-6 {
+  position: absolute;
+  top: 360px;
+  left: 1005px;
+}
+.img-6 > img {
+  border-radius: 12px;
+}
+.img-6 > p {
+  position: absolute;
+  top: 170px;
+  left: 30px;
+  font-family: Inter;
+  font-size: 19.53px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #FFFFFF;
+}/*# sourceMappingURL=style.css.map */
+=======
 /* <!-- Discount section, Travel Article & footer section(Sahil ) --> */
 /*# sourceMappingURL=style.css.map */
 =======
