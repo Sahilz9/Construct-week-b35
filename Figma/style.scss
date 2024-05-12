@@ -460,4 +460,689 @@ body {
   }
   
 }
+
+body
+{
+    margin: 0px;
+    box-sizing: border-box;
+>header
+{
+    
+    
+max-width: 1920px;
+margin: auto;
+ >.rks2
+{
+  
+    
+    max-width: 1320px;
+    padding:22px 15px 22px 15px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    >.box1
+    {
+        display: flex;
+        justify-content: space-between;
+    align-items: center;
+
+       width: 547px;
+        >.search{
+        
+        width: 350px;
+       
+        >input[type="text"]
+        {
+           
+            padding: 0px;
+            margin: 12px 79.8px 12.13px 47px;
+            font-family: Inter;
+font-size: 14.77px;
+font-weight: 400;
+line-height: 17.87px;
+color: #757575;
+width: 223.2px;
+border: none;
+        }
+    }
+        
+    }
+    .box2
+    {
+       
+        display: flex;
+        justify-content: start;
+    align-items: center;
+        max-width: 593.5px;
+        
+        
+        >span
+        {
+            font-family: Inter;
+font-size: 14.77px;
+font-weight: 400;
+line-height: 28.13px;
+color: #05073C;
+transition:color 0.5s linear;
+
+        }
+        >span:hover
+        {
+            color: red;
+            cursor: pointer;
+        }
+        >span:nth-of-type(1)
+        {
+            padding-right: 62.8px;
+            padding-left: 20px;
+        }
+        >span:nth-of-type(2)
+        {
+            font-family: Inter;
+font-size: 14.88px;
+font-weight: 400;
+line-height: 28.13px;
+text-align: left;
+
+            padding-right: 62.8px;
+        }
+        >span:nth-of-type(3)
+        {
+            font-family: Inter;
+font-size: 13.83px;
+font-weight: 400;
+line-height: 28.13px;
+text-align: left;
+
+            padding-right: 52.8px;
+        }
+        >span:nth-of-type(4)
+        {
+            font-family: Inter;
+font-size: 14.53px;
+font-weight: 400;
+line-height: 28.13px;
+text-align: left;
+
+            padding-right: 29.8px;
+        }
+        >button
+        {
+          
+            border-radius: 200px;
+            background-color: #EB662B;
+            color: #FFFFFF;
+padding: 12px 20.8px 12px 21px;
+            font-family: Inter;
+font-size: 14.3px;
+font-weight: 500;
+line-height: 28px;
+transition: background-color 1s linear;
+cursor: pointer;
+border: none;
+        }
+        >button:hover
+        {
+background-color: red;
+        }
+    }
+
+}
+}
+>section
+{
+    
+max-width: 1920px;
+margin: auto;
+    >.div1
+    {
+        width: 1800px;
+        position: relative;
+        margin: auto;
+       >img
+       {
+        width: 100%;
+       }
+       >h1
+       {
+        font-family: Inter;
+font-size: 69.73px;
+font-weight: 600;
+line-height: 84px;
+margin: 0px;
+left: 618.03px;
+color: #FFFFFF;
+position: absolute;
+top: 220px;
+
+       }
+       >p
+       {
+        font-family: Inter;
+font-size: 14.65px;
+font-weight: 400;
+line-height: 28.13px;
+text-align: center;
+color: #FFFFFF;
+position: absolute;
+top: 314px;
+left: 585.2px;
+margin: 0px;
+       }
+       >.div2
+       {
+         
+           position: absolute;
+           top: 402.13px;
+           left: 475px;
+         
+   
+   padding: 10px;
+
+   border-radius: 12px;
+   background-color: #FFFFFF;
+   display: flex;
+   >.w1
+   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 5px 10px 5px 10px;
+   }
+   >.w2
+   {
+width: 136.95px;
+
+   }
+   >.w2>button
+   {
+    font-family: Inter;
+font-size: 14.65px;
+font-weight: 500;
+line-height: 28px;
+color: #FFFFFF;
+background-color:#EB662B;
+
+padding: 20px 30.8px 20px 31px;
+
+border-radius: 12px;
+width: 100%;
+cursor: pointer;
+transition:background-color 1s linear;
+border: none;
+
+   }
+   >.w2>button:hover
+   {
+    background-color: red;
+   }
+   
+       }
+       >.div2 .ibox1
+       {
+           width: 50px;
+   height: 50px;
+
+   
+   border-radius: 12px;
+   border: 1px;
+   border: 1px solid #E7E6E6
+   
+       }
+       >.div2 .v1
+       {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        width: 224.34px;
+        
+       }
+      
+       >.div2 .v1 p,>.div2 .v1 h2
+        {
+            margin: 0px;
+        }
+        >.div2 .v1 p
+        {
+            font-family: Inter;
+font-size: 13.67px;
+font-weight: 400;
+line-height: 19.6px;
+color: #717171;
+transition:color 0.5s linear ;
+cursor: pointer;
+
+        }
+
+        >.div2 .r2 p
+        {
+       color: #000000;
+ 
+         
+        }
+        >.div2 .v1 p:hover
+        {
+            color: red;
+        }
+        >.div2 .v1 h2
+        {
+            font-family: Inter;
+font-size: 14.88px;
+font-weight: 500;
+line-height: 24px;
+color: #05073C;
+
+
+        }
+       
+    }
+   
+}
+}
+//     <!-- Why choose Tourz, Trending destinations & Find more tours (Imaran ) -->
+
+body {
+    max-width: 1800px;
+    margin: auto;
+}
+.carts-container {
+    margin: 105px  !important;
+    >section.heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        font-family: Inter;
+        >h1 {
+            padding-bottom: 40px;
+            margin: 0;
+            line-height: 45px;
+            font-weight: 700;
+            font-size: 29.41px;
+        }
+        >p {
+            font-weight: 400;
+            line-height: .13px;
+            font-size: 14.3px
+        }
+    }
+    >section.carts {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+        gap: 30px;
+        >div.cart {
+            width: fit-content;
+            border: 1px solid #E7E6E6;
+            border-radius: 12px;
+            padding: 11px;
+            position: relative;
+            background-color: #FFFFFF;
+            >img {
+                width: 100%;
+                border-radius: 12px;
+            }
+            >.icon {
+                top: 34%;
+                right: 21px;
+                position: absolute;
+                height: 6%;
+                width: 12%;
+                background-color: white;
+                border-radius: 50%;
+                visibility: visible;
+            }
+       >.faded {
+                font-family: Inter;
+                font-weight: 400;
+                line-height: 24.38px;
+                color: #717171;
+                margin-left: 31px;
+                font-size: 12.19px;
+                text-align: left;
+            }
+            >h1 {
+                margin-left: 10px;
+                font-weight: 500;
+                font-size: 15.88px;
+                line-height: 24px;
+                color: #05073C;
+                font-family: Inter;
+            }
+            >p {
+                color: #05073C;
+                text-align: center;
+                font-family: Inter;
+                font-size: 12.49px;
+                font-weight: 400;
+                line-height: 24.38px;
+            }
+            .text {
+                display: flex;
+                justify-content: space-around;
+                align-items: baseline;
+                border-top: 1px solid #E7E6E6;
+                >p {
+                    color: #05073C;
+                    font-family: Inter;
+                    font-size: 13px;
+                    font-weight: 400;
+                    line-height: 24.38px;
+                    text-align: left;
+                    >span {
+                        font-size: 14.5px;
+                        font-weight: 500;
+                        line-height: 30px;
+                        text-align: left;
+                        font-size: 15.13px;
+                        line-height: 30px;
+                        margin: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.bg-color{
+    background-color: #F5F5F5;
+    padding: 115px 105px 120px 105px;
+    margin: 0 135px 120px  !important;
+}
+@media (max-width: 1000px) {
+    .container{
+    >section.carts{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 30px;
+        >div.cart{
+            >.icon{
+                visibility: hidden;
+            }
+        }
+    }
+  }
+}
+
+//     <!-- Discount & Popular things to do (Pavan ) -->
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.grab-con {
+    display: flex;
+    justify-content: center;
+    max-width: 2000px;
+    margin: auto;
+    // border: 2px solid black;
+
+}
+
+.img-g {
+    position: relative;
+    width: 1530px;
+    height: 606px;
+}
+.img-g>img{
+    border-radius: 12px;
+}
+#iii{
+    border-radius: 12px;
+}
+
+.img-g {
+    >div:nth-of-type(1) {
+        position: absolute;
+        top: 130px;
+        left: 120px;
+        width: 366px;
+        height: 156px;
+
+        >p {
+            font-size: 40px;
+            font-family: Inter;
+            font-weight: 700;
+            color: #05073c;
+
+            span {
+                color: #eb662b;
+            }
+        }
+    }
+
+    >div:nth-of-type(2) {
+        position: absolute;
+        top: 314px;
+        left: 120px;
+
+        >p {
+            color: #05073c;
+            font-family: Inter;
+            font-size: 14.77px;
+            font-weight: 400;
+            line-height: 28.13px;
+            text-align: left;
+
+        }
+
+    }
+
+    >div:nth-of-type(3) {
+        position: absolute;
+        top: 388px;
+        left: 120px;
+
+        >button {
+            width: 167px;
+            height: 62px;
+            border: none;
+            color: white;
+            background-color: #eb662b;
+            border-radius: 12px;
+            font-family: Inter;
+            font-size: 14.41px;
+            font-weight: 500;
+            line-height: 28px;
+            text-align: center;
+
+        }
+
+    }
+
+    >div:nth-of-type(4) {
+        position: absolute;
+        top: 0px;
+        left: 780px;
+        width: 750px;
+        height: 606px;
+
+    }
+
+    >div:nth-of-type(5) {
+        position: absolute;
+        top: 0px;
+        left: 779px;
+        width: 40px;
+        height: 604px;
+
+    }
+}
+
+.popular-con {
+    max-width: 1320px;
+    height: 600px;
+    margin: auto;
+    margin-top: 115px;
+    // border: 2px solid black;
+    position: relative;
+}
+
+.ic>div:nth-of-type(1) {
+    display: flex;
+    justify-content: space-between;
+
+    >p:nth-of-type(1) {
+        margin: 0px;
+        padding: 4px 0 0 15px;
+        font-family: Inter;
+        font-size: 29.88px;
+        font-weight: 700;
+        line-height: 45px;
+        text-align: left;
+        color: #05073c;
+
+    }
+
+    >p:nth-of-type(2) {
+        padding: 12px 31px 0 0;
+        margin: 0px;
+        font-family: Inter;
+        font-size: 14.3px;
+        font-weight: 400;
+        line-height: 28.13px;
+        text-align: left;
+        color: #05073c;
+    }
+
+}
+
+.img-1 {
+    position: absolute;
+    top: 90px;
+    left: 15px;
+
+    >img {
+        border-radius: 12px;
+    }
+
+    >p {
+        position: absolute;
+        top: 170px;
+        left: 30px;
+        font-family: Inter;
+        font-size: 19.53px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+        color:#FFFFFF;
+        ;
+    }
+}
+.img-2 {
+    position: absolute;
+    top: 360px;
+    left: 15px;
+
+    >img {
+        border-radius: 12px;
+    }
+
+    >p {
+        position: absolute;
+        top: 170px;
+        left: 30px;
+        font-family: Inter;
+        font-size: 19.53px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+        color:#FFFFFF;
+        ;
+    }
+}
+.img-3 {
+    position: absolute;
+    top: 90px;
+    left: 345px;
+
+    >img {
+        border-radius: 12px;
+    }
+
+    >p {
+        position: absolute;
+        top: 440px;
+        left: 30px;
+        font-family: Inter;
+        font-size: 19.53px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+        color:#FFFFFF;
+        ;
+    }
+}
+.img-4 {
+    position: absolute;
+    top: 90px;
+    left: 785px;
+
+    >img {
+        border-radius: 12px;
+    }
+
+    >p {
+        position: absolute;
+        top: 170px;
+        left: 30px;
+        font-family: Inter;
+        font-size: 19.53px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+        color:#FFFFFF;
+        ;
+    }
+}
+.img-5 {
+    position: absolute;
+    top: 360px;
+    left: 785px;
+
+    >img {
+        border-radius: 12px;
+    }
+
+    >p {
+        position: absolute;
+        top: 170px;
+        left: 30px;
+        font-family: Inter;
+        font-size: 19.53px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+        color:#FFFFFF;
+        ;
+    }
+}
+.img-6 {
+    position: absolute;
+    top: 360px;
+    left: 1005px;
+
+    >img {
+        border-radius: 12px;
+    }
+
+    >p {
+        position: absolute;
+        top: 170px;
+        left: 30px;
+        font-family: Inter;
+        font-size: 19.53px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+        color:#FFFFFF;
+        ;
+    }
+}
+
+
+
+
+//     <!-- Top trending & Customer Reviews (Rutvik ) -->
+
 //     <!-- Discount section, Travel Article & footer section(Sahil ) -->
