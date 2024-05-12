@@ -1,3 +1,233 @@
+
+
+/* <!-- Viatours navbar and search container (Rajat)  --> */
+
+/* <!-- Why choose Tourz, Trending destinations & Find more tours (Imaran ) --> */
+.main-container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+
+.Main {
+    height: 320px;
+    width: 1320px;
+    /* justify-content: center;
+    align-items: center;
+    position: absolute; */
+    left: 34%;
+    margin-top:60px
+  
+  }
+
+  .text {
+    width: 100%;
+    justify-content: start;
+    margin-left: 80px;
+  }
+
+  .container {
+    text-align: center;
+    font-family: Inter;
+    font-size: 29.3px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: left;
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+
+  .image {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .image p {
+    margin-top: 5px;
+  }
+  .imo {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .rowText {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 60px;
+  }
+
+  .rowText h1 {
+    font-family: Inter;
+    font-size: 29.88px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: left;
+  }
+  .circleMain {
+    height: 200px;
+    width: 1290px;
+    top: 40px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+
+  .cont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh; 
+        gap: 10px;
+    }
+
+    .slide {
+        width: 6px;
+        height: 6px;
+        background-color: grey;
+        border-radius: 50%;
+    }
+
+     body {
+      width: 1300px;
+      margin: auto; 
+      margin-bottom: 20px;
+    } 
+    .carts-container {
+      /* margin: 105px !important; */
+    }
+    .carts-container > section.heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-family: Inter;
+    }
+    .carts-container > section.heading > h1 {
+      padding-bottom: 40px;
+      margin: 0;
+      line-height: 45px;
+      font-weight: 700;
+      font-size: 29.41px;
+    }
+    .carts-container > section.heading > p {
+      font-weight: 400;
+      line-height: 0.13px;
+      font-size: 14.3px;
+    }
+    .carts-container > section.carts {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: auto;
+      gap: 30px;
+    }
+    .carts-container > section.carts > div.cart {
+      width: -moz-fit-content;
+      width: fit-content;
+      border: 1px solid #E7E6E6;
+      border-radius: 12px;
+      padding: 11px;
+      position: relative;
+      background-color: #FFFFFF;
+    }
+    .carts-container > section.carts > div.cart > img {
+      width: 100%;
+      border-radius: 12px;
+    }
+    .carts-container > section.carts > div.cart > .icon {
+      top: 34%;
+      right: 21px;
+      position: absolute;
+      height: 6%;
+      width: 12%;
+      background-color: white;
+      border-radius: 50%;
+      visibility: visible;
+    }
+    .carts-container > section.carts > div.cart > .faded {
+      font-family: Inter;
+      font-weight: 400;
+      line-height: 24.38px;
+      color: #717171;
+      margin-left: 31px;
+      font-size: 12.19px;
+      text-align: left;
+    }
+    .carts-container > section.carts > div.cart > h1 {
+      margin-left: 10px;
+      font-weight: 500;
+      font-size: 15.88px;
+      line-height: 24px;
+      color: #05073C;
+      font-family: Inter;
+    }
+    .carts-container > section.carts > div.cart > p {
+      color: #05073C;
+      text-align: center;
+      font-family: Inter;
+      font-size: 12.49px;
+      font-weight: 400;
+      line-height: 24.38px;
+    }
+    .carts-container > section.carts > div.cart .text {
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+      border-top: 1px solid #E7E6E6;
+    }
+    .carts-container > section.carts > div.cart .text > p {
+      color: #05073C;
+      font-family: Inter;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 24.38px;
+      text-align: left;
+    }
+    .carts-container > section.carts > div.cart .text > p > span {
+      font-size: 14.5px;
+      font-weight: 500;
+      line-height: 30px;
+      text-align: left;
+      font-size: 15.13px;
+      line-height: 30px;
+      margin: 0px;
+    }
+    /* .bg-color {
+      background-color: #F5F5F5;
+      padding: 115px 105px 120px 105px;
+      margin: 0 135px 120px !important;
+    } */
+    /* @media (max-width: 1300px) {
+      .container > section.carts {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 30px;
+      }
+      .container > section.carts > div.cart > .icon {
+        visibility: hidden;
+      }
+    } */
+/* <!-- Discount & Popular things to do (Pavan ) --> */
+
+/* <!-- Top trending & Customer Reviews (Rutvik ) --> */
+
+/* <!-- Discount section, Travel Article & footer section(Sahil ) --> */
+/*# sourceMappingURL=style.css.map */
+=======
 body {
   margin: 0px;
   box-sizing: border-box;

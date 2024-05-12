@@ -281,6 +281,129 @@ color: #05073C;
 }
 //     <!-- Why choose Tourz, Trending destinations & Find more tours (Imaran ) -->
 
+body {
+    max-width: 1800px;
+    margin: auto;
+}
+.carts-container {
+    margin: 105px  !important;
+    >section.heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        font-family: Inter;
+        >h1 {
+            padding-bottom: 40px;
+            margin: 0;
+            line-height: 45px;
+            font-weight: 700;
+            font-size: 29.41px;
+        }
+        >p {
+            font-weight: 400;
+            line-height: .13px;
+            font-size: 14.3px
+        }
+    }
+    >section.carts {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+        gap: 30px;
+        >div.cart {
+            width: fit-content;
+            border: 1px solid #E7E6E6;
+            border-radius: 12px;
+            padding: 11px;
+            position: relative;
+            background-color: #FFFFFF;
+            >img {
+                width: 100%;
+                border-radius: 12px;
+            }
+            >.icon {
+                top: 34%;
+                right: 21px;
+                position: absolute;
+                height: 6%;
+                width: 12%;
+                background-color: white;
+                border-radius: 50%;
+                visibility: visible;
+            }
+       >.faded {
+                font-family: Inter;
+                font-weight: 400;
+                line-height: 24.38px;
+                color: #717171;
+                margin-left: 31px;
+                font-size: 12.19px;
+                text-align: left;
+            }
+            >h1 {
+                margin-left: 10px;
+                font-weight: 500;
+                font-size: 15.88px;
+                line-height: 24px;
+                color: #05073C;
+                font-family: Inter;
+            }
+            >p {
+                color: #05073C;
+                text-align: center;
+                font-family: Inter;
+                font-size: 12.49px;
+                font-weight: 400;
+                line-height: 24.38px;
+            }
+            .text {
+                display: flex;
+                justify-content: space-around;
+                align-items: baseline;
+                border-top: 1px solid #E7E6E6;
+                >p {
+                    color: #05073C;
+                    font-family: Inter;
+                    font-size: 13px;
+                    font-weight: 400;
+                    line-height: 24.38px;
+                    text-align: left;
+                    >span {
+                        font-size: 14.5px;
+                        font-weight: 500;
+                        line-height: 30px;
+                        text-align: left;
+                        font-size: 15.13px;
+                        line-height: 30px;
+                        margin: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.bg-color{
+    background-color: #F5F5F5;
+    padding: 115px 105px 120px 105px;
+    margin: 0 135px 120px  !important;
+}
+@media (max-width: 1000px) {
+    .container{
+    >section.carts{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 30px;
+        >div.cart{
+            >.icon{
+                visibility: hidden;
+            }
+        }
+    }
+  }
+}
+
 //     <!-- Discount & Popular things to do (Pavan ) -->
 
 //     <!-- Top trending & Customer Reviews (Rutvik ) -->
