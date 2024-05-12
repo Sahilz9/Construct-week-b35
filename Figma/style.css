@@ -95,8 +95,8 @@
     }
 
     .slide {
-        width: 10px;
-        height: 10px;
+        width: 6px;
+        height: 6px;
         background-color: grey;
         border-radius: 50%;
     }
@@ -138,8 +138,7 @@
       width: fit-content;
       border: 1px solid #E7E6E6;
       border-radius: 12px;
-      padding-top: 14px;
-    
+      padding: 11px;
       position: relative;
       background-color: #FFFFFF;
     }
