@@ -35,10 +35,10 @@ cd ./Construct-week-b35/
 
 
 ## Video Walkthrough of the project
-Attach a very short video walkthough of all of the features [ 1 - 3 minutes ]
+
 
 ## Video Walkthrough of the codebase
-Attach a very short video walkthough of codebase [ 1 - 5 minutes ]
+
 
 ## Features
 Key features of the application.
@@ -53,7 +53,7 @@ Key features of the application.
 8. Responsive Design
 9. Search Functionality
 
-## Design decisions or Dssumptions
+## Design decisions or Assumptions
 Design Decisions:
 1. Responsive Design
 2. Mobile-First Approach
